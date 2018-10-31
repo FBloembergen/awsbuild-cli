@@ -6,7 +6,7 @@ RUN alternatives --set python /usr/bin/python3.6
 
 # Install NodeJS
 ENV NVM_DIR /root/.nvm
-ENV NODE_VERSION 10.13.0
+ENV NODE_VERSION 8.12.0
 
 WORKDIR $NVM_DIR
 
